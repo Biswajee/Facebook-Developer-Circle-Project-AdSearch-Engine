@@ -61,24 +61,25 @@ h3 {
 .search-box-container {
   display: inline-block;
   box-sizing: content-box;
-  height: 45px;
-  width: 45px;
+  height: 50px;
+  width: 50px;
   padding: 0;
   background-color: #fff;
-  border: 3px solid #000;
+  border: 0px solid #000;
+  border-radius :10px;
   overflow: hidden;
 }
 .search-box-container * {
   display: inline-block;
   margin: 0;
   height: 100%;
-  padding: 5px;
+  padding: 0px;
   border: 0;
   outline: none;
 }
 .search-box {
   width: calc(100% - 50px);
-  padding: 0 20px;
+  padding: 0px;
   float: left;
   font-family: "Comic Sans MS";
   font-size: 1em;
