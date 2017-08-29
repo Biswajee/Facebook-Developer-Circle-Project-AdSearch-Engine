@@ -17,10 +17,10 @@
   <div class="form">
    <p align=center><font face="Arial" color=#2ECC71>Enter your <b>Login Credentials</b></font></p>
   
-    <form class="login-form">
-      <input type="text" placeholder="username"/>
-      <input type="password" placeholder="password"/>
-      <button>login</button>
+    <form class="login-form" action="/form.php" method="POST">
+      <input type="text" name="usr" placeholder="username"/>
+      <input type="password" name="pwd" placeholder="password"/>
+      <button type=submit form="form1" value="submit">login</button>
       <p class="message">Not registered? <a href="register\index.html">Create an account</a></p>
     </form>
   </div>

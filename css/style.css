@@ -49,11 +49,11 @@ h1 {
   letter-spacing: 1px;
   margin-bottom: 50px;
 }
-h3 {
+h2 {
   display: block;
-  height: 19px;
+  height: 16px;
   margin-top: 30px;
-  font-family: "Lato";
+  font-family: "Arial Narrow";
   font-size: 1em;
   color: #fff;
   opacity: 0;
@@ -101,4 +101,13 @@ h3 {
   line-height: 100%;
   pointer-event: none;
   color: #d32f2f;
+}
+.nav{
+	color:white; 
+}
+/*.nav:hover{color:#545454}*/
+a:hover
+{
+	color:red;
+	font-size:1.2em;
 }
