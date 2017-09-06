@@ -1,32 +1,35 @@
-
 <!DOCTYPE html>
-<html >
-<head>
-  <meta charset="UTF-8">
-  <title>Bouncy search box</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
-      <link rel="stylesheet" href="css/style.css">
-	  <link rel="stylesheet" href="css/animate.css">
-	  <link rel="shortcut icon" href="images/favicon.ico">
-  
-</head>
-
-<body>
- <font face="Calibri" size=4px ><p align=right class="nav"><a href="retailer/index.html" style="text-decoration: none">Retailer Login</a> | <a href="retailer/register/index.html" style="text-decoration: none">Sign Up !</a></p></font>
- 
-<div class='container' >
-  <h1 class="animated jello"><font face="Calibri" size=25px>Go on, click me!</font></h1>
-  <div class='search-box-container'>
-    <button class='submit'> <i class='fa' ><img src="images/search-icon-png-9985.png" alt="search_icon"></i> </button>
-    <input class='search-box'>
-  </div>
-  <h2 class='response'></h2>
-</div>
- <script src='js/jquery.min.js'></script>
-<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
-
-    <script src="js/index.js"></script>
-
-</body>
+<html><head><title>Welcome to Ad Search Engine</title>
+    
+    <style type="text/css" >
+        
+        body {
+        
+            margin-top: -80px;
+        
+        }
+        
+        form {
+        margin: 25%;
+        
+        
+        }
+    
+    </style>
+    
+    
+    </head>
+    <body background="images\wall.jpg">
+    
+    <form action="results.php" method="post">
+        <img src="images/logo.png" width="80%" height="80%" />
+        <input type="text" name="user_query" size="70" placeholder="Type something to Search..." />
+        <input type="submit" name="search" value="Search Now" />
+        
+        
+        
+        </form>
+    
+    
+    </body>
 </html>
